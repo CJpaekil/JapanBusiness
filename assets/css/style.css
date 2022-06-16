@@ -2,10 +2,38 @@ img {
 	width:100%;
 	height:auto;
 }
+
+.h-line {
+	width:50px;
+	height:1px;
+	border:1px solid #2B68B3;
+	margin-right:10px;
+}
+
+.asanro-description {
+	display:flex;
+	align-items: center;
+}
+
 @media (min-width:768px)
 {
-	.test{
-		font-size: 150px;
+	.asanro {
+		padding:70px 0px;
+	}
+
+	.title {
+		color:#2B68B3;
+		font-size:40px;
+		font-weight:bold;
+	}
+
+	.manufacturing-industry {
+		background:black;
+		color:white;padding:20px 30px; 
+		max-width:400px;
+		font-size:24px;
+		margin:30px 55px;
+
 	}
 }
 @media (max-width:768px)
