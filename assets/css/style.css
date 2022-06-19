@@ -5,6 +5,10 @@ img {
 	height:auto;
 }
 
+input {
+	outline: none;
+}
+
 .test {
 	background-image:url(../../assets/images/tooltip.png);
 	background-repeat:no-repeat;
@@ -41,7 +45,7 @@ img {
 .blue-circle {
 	background:#0C88CB;
 	border-radius:50%;
-	width:17px;
+	width:14px;
 	height:13px;
 	margin-top: 5px;
 }
@@ -69,7 +73,7 @@ img {
 	}
 
 	.asanro {
-		padding:40px 0px;
+		padding-top:40px;
 	}
 
 	.title {
@@ -100,6 +104,11 @@ img {
 		font-size:24px;
 	}
 
+	.company-name {
+		font-size:30px;
+		margin-top: -6px;		
+	}
+
 	.asnaro-gray {
 		background: #F2F5F9;
 		width:80%;
@@ -157,7 +166,7 @@ img {
 	}
 
 	.gap-top {
-		margin-top: 80px;
+		margin-top: 40px;
 	}
 
 	.usageimg-gap {
@@ -198,6 +207,7 @@ img {
 		position: relative;
 		margin-top: 4px;
 		margin-left: 10px;
+		width:190px;
 	}
 
 	.input-asnaro {
@@ -205,11 +215,14 @@ img {
 	    top: 3px;
 	    left: 2px;
 	    width: 150px;
-	    margin-left:10px;
 	    border:none;
 	    background:none;
-	    margin-top: 1px;
-	    text-align: center;
+	    text-align: left;
+	    margin-left:7px;
+	}
+
+	.input-asnaro:focus {
+		border:none;
 	}
 
 	.comment {
@@ -253,7 +266,21 @@ img {
 	.search-available {
 		border:1px solid #2B68B3;
 		color:#2B68B3;
-		font-size:12px;
+		font-size:11px;
+		height: 20px;
+		margin-left:5px;
+	}
+
+	.usage-imageCard {
+		margin-top:20px !important;
+	}
+
+	.calendar-gap {
+		margin-left: 10px;
+	}
+
+	.computer-gap {
+		margin-right: 10px;
 	}
 }
 
@@ -264,7 +291,7 @@ img {
 	}
 
 	.asanro {
-		padding:40px 0px;
+		padding-top:40px;
 	}
 
 	.title {
@@ -275,7 +302,7 @@ img {
 	}
 
 	.subtitle {
-		font-size:26px;
+		font-size:19px;
 		font-weight:bold;
 		color:#2B68B3;
 		text-align: center;
@@ -292,7 +319,7 @@ img {
 	}
 
 	.little-title {
-		font-size:24px;
+		font-size:20px;
 	}
 
 	.asnaro-gray {
@@ -318,7 +345,7 @@ img {
 	}
 
 	.description {
-		font-size:18px;
+		font-size:16px;
 		padding:5px;
 		text-align: left;
 		font-weight: 500;
@@ -352,7 +379,7 @@ img {
 	}
 
 	.gap-top {
-		margin-top: 80px;
+		margin-top: 40px;
 	}
 
 	.usageimg-gap {
@@ -393,18 +420,18 @@ img {
 		position: relative;
 		margin-top: 4px;
 		margin-left: 10px;
+		width:190px;
 	}
 
 	.input-asnaro {
 		position: absolute;
-	    top: 3px;
+	    top: 2px;
 	    left: 2px;
-	    width: 150px;
-	    margin-left:10px;
+	    width: 120px;
 	    border:none;
 	    background:none;
-	    margin-top: 1px;
-	    text-align: center;
+	    text-align: left;
+	   	margin-left:3px;
 	}
 
 	.comment {
@@ -448,9 +475,25 @@ img {
 	.search-available {
 		border:1px solid #2B68B3;
 		color:#2B68B3;
-		font-size:12px;
+		font-size:8px;
 	}
 
+	.usage-imageCard {
+		margin-top:20px !important;
+	}
+
+	.company-name {
+		font-size:23px;
+		margin-top: -4px;		
+	}
+
+	.calendar-gap {
+		margin-left: 10px;
+	}
+
+	.computer-gap {
+		margin-right: 10px;
+	}
 }
 
 @media (max-width:768px)
@@ -460,18 +503,18 @@ img {
 	}
 
 	.asanro {
-		padding:10px 0px;
+		padding:20px 0px;
 	}
 
 	.title {
 		color:#2B68B3;
-		font-size:27px;
+		font-size:20px;
 		font-weight:bold;
 		text-align: center;
 	}
 
 	.subtitle {
-		font-size:22px;
+		font-size:20px;
 		font-weight:bold;
 		color:#2B68B3;
 		text-align: center;
@@ -485,7 +528,8 @@ img {
 	}
 
 	.little-title {
-		font-size:24px;
+		font-size:20px;
+		font-weight: bold;
 	}
 
 	.asnaro-gray {
@@ -544,7 +588,7 @@ img {
 	}
 
 	.gap-top {
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 
 	.usageimg-gap {
@@ -582,6 +626,86 @@ img {
 
 
 	.footer-gap {
-		margin-top:40px;
+		margin-top:20px !important;
+	}
+
+	.asnaro-search {
+		position: relative;
+		margin-top: 4px;
+		width:190px;
+	}
+
+	.input-asnaro {
+		position: absolute;
+	    top: 3px;
+	    left: 2px;
+	    width: 150px;
+	    border:none;
+	    background:none;
+	    text-align: left;
+	    margin-left: 7px;
+	}
+
+.comment {
+		font-size:12px;
+		text-align: left;
+		margin-top: 10px;
+	}
+
+	.calendar-card {
+
+	  	background-color: #EFF4FB; /* For browsers that do not support gradients */
+	  	background-image: linear-gradient(to left, #EFF4FB , white);
+	  	padding:10px;
+	  	border:1px solid #85A7D2;
+	  	border-radius: 6px;
+	  	display: flex;
+	  	position:relative;
+	}
+
+	.calendar-img {
+		width:60px;
+		height: 80px;
+	}
+
+	.computer-text {
+		margin-left:12px;
+		font-size:16px;
+	}
+
+	.computer-comment {
+		position: absolute;
+	    left: -3%;
+	    top: -40%;
+	    width:70px;
+	}
+
+	.line {
+		border: 1px solid #2F68B1;
+		margin:3px 0px;
+	}
+
+	.search-available {
+		border:1px solid #2B68B3;
+		color:#2B68B3;
+		font-size:10px;
+		margin-left: 1px;
+	}
+
+		.usage-imageCard {
+		margin-top:20px !important;
+	}
+
+		.company-name {
+		font-size:25px;
+		margin-top: -7px;		
+	}
+
+	.calendar-gap {
+		margin-top: 10px;
+	}
+
+	.footer-center {
+		margin: auto;
 	}
 }
