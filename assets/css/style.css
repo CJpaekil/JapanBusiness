@@ -6,8 +6,7 @@ img {
 }
 
 .test {
-	background-image:url(../../assets/images/image5.png);
-	background-position:center;
+	background-image:url(../../assets/images/tooltip.png);
 	background-repeat:no-repeat;
 	background-size:contain;
 }
@@ -28,12 +27,9 @@ img {
 	justify-content: end;
 }
 
-
-
 .asanro-description {
 	display:flex;
 	align-items: center;
-
 }
 
 .asnaro-access {
@@ -50,11 +46,6 @@ img {
 	margin-top: 5px;
 }
 
-.search-available {
-	border:1px solid black;
-	color:black;
-}
-
 .step {
 	background: #4981C9;
 	color:white;
@@ -67,16 +58,13 @@ img {
 	color:#2B68B3;
 	font-size:17px;
 	font-weight:bold;
-	position: absolute;
-	top: 5px;
-    left: 15px;
+    margin-top: -13px;
+    margin-left: -10px;
 }
 
-
-
-@media (min-width:768px)
+@media (min-width:996px)
 {
-	.mobile {
+.mobile {
 		display: flex;
 	}
 
@@ -88,11 +76,14 @@ img {
 		color:#2B68B3;
 		font-size:30px;
 		font-weight:bold;
+		text-align: center;
 	}
 
 	.subtitle {
 		font-size:26px;
-		font-weight:500;
+		font-weight:bold;
+		color:#2B68B3;
+		text-align: center;
 	}
 
 	.manufacturing-industry {
@@ -149,12 +140,6 @@ img {
 	.leave-asnaro {
 		padding:40px 0px;
 		background: #F2F5F7;
-	}
-
-	.usage-img{
-		width:70%;
-		background: white;
-		padding:30px;
 	}
 
 	.gap-x {
@@ -259,7 +244,215 @@ img {
 	    top: -40%;
 	    width:90px;
 	}
+
+	.line {
+		border: 1px solid #2F68B1;
+		margin:3px 0px;
+	}
+
+	.search-available {
+		border:1px solid #2B68B3;
+		color:#2B68B3;
+		font-size:12px;
+	}
 }
+
+@media (min-width:768px) and (max-width:995px)
+{
+	.mobile {
+		display: flex;
+	}
+
+	.asanro {
+		padding:40px 0px;
+	}
+
+	.title {
+		color:#2B68B3;
+		font-size:26px;
+		font-weight:bold;
+		text-align: center;
+	}
+
+	.subtitle {
+		font-size:26px;
+		font-weight:bold;
+		color:#2B68B3;
+		text-align: center;
+	}
+
+	.manufacturing-industry {
+		background:#2B68B3;
+		color:white;
+		font-size:24px;
+		text-align: center;
+		padding:5px 0px;
+		border-radius: 5px;
+		margin:10px 0px;
+	}
+
+	.little-title {
+		font-size:24px;
+	}
+
+	.asnaro-gray {
+		background: #F2F5F9;
+		width:80%;
+		padding:30px;
+		height:520px;
+	}
+
+	.asnaro-content {
+		position: absolute;
+	  	left: 0;
+      	top: 13%;
+	  	width: 100%;
+	  	text-align: center;  	
+    	padding: 0 20px;
+
+	}
+
+	.asnaro-content img {
+		width:90%;
+		/*height:16px;*/
+	}
+
+	.description {
+		font-size:18px;
+		padding:5px;
+		text-align: left;
+		font-weight: 500;
+	}
+
+	.asnaro_search {
+		margin-top:7px !important;
+	}
+
+	.calendar {
+		margin-top:27px;
+	}
+
+	.leave-asnaro {
+		padding:40px 0px;
+		background: #F2F5F7;
+	}
+
+	.gap-x {
+		padding:0 10px;
+	}
+
+	.search-keyword {
+		height:100%;
+	}
+
+	.footer {
+		background: black;
+		padding:30px;
+		color:white;
+	}
+
+	.gap-top {
+		margin-top: 80px;
+	}
+
+	.usageimg-gap {
+		margin: 25px 0px 40px 0px;
+	}
+
+	.computer {
+		padding:40px 0px;
+	}
+
+	.computer-range {
+		width:30%;
+	}
+
+	.arrow-range {
+		width: 5%;	
+	}
+
+	.arrow-image {
+		width:30px;
+		height:100px;
+		margin-top:35px;
+	}
+
+	.h-line {
+		width:50px;
+		height:1px;
+		border:1px solid #2B68B3;
+		margin-right:10px;
+	}
+
+
+
+
+
+
+	.asnaro-search {
+		position: relative;
+		margin-top: 4px;
+		margin-left: 10px;
+	}
+
+	.input-asnaro {
+		position: absolute;
+	    top: 3px;
+	    left: 2px;
+	    width: 150px;
+	    margin-left:10px;
+	    border:none;
+	    background:none;
+	    margin-top: 1px;
+	    text-align: center;
+	}
+
+	.comment {
+		font-size:12px;
+		text-align: left;
+		margin-top: 10px;
+	}
+
+	.calendar-card {
+
+	  	background-color: #EFF4FB; /* For browsers that do not support gradients */
+	  	background-image: linear-gradient(to left, #EFF4FB , white);
+	  	padding:10px;
+	  	border:1px solid #85A7D2;
+	  	border-radius: 6px;
+	  	display: flex;
+	  	position:relative;
+	}
+
+	.calendar-img {
+		width:80px;
+	}
+
+	.computer-text {
+		margin-left:12px;
+		font-size:16px;
+	}
+
+	.computer-comment {
+		position: absolute;
+	    left: -10%;
+	    top: -40%;
+	    width:90px;
+	}
+
+	.line {
+		border: 1px solid #2F68B1;
+		margin:3px 0px;
+	}
+
+	.search-available {
+		border:1px solid #2B68B3;
+		color:#2B68B3;
+		font-size:12px;
+	}
+
+}
+
 @media (max-width:768px)
 {
 	.mobile {
@@ -274,11 +467,14 @@ img {
 		color:#2B68B3;
 		font-size:27px;
 		font-weight:bold;
+		text-align: center;
 	}
 
 	.subtitle {
 		font-size:22px;
-		font-weight:500;
+		font-weight:bold;
+		color:#2B68B3;
+		text-align: center;
 	}
 
 	.manufacturing-industry {
@@ -331,12 +527,6 @@ img {
 	.leave-asnaro {
 		padding:40px 0px;
 		background: #F2F5F7;
-	}
-
-	.usage-img{
-		width:100%;
-		background: white;
-		padding:30px;
 	}
 
 	.gap-x {
