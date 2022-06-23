@@ -1,4 +1,7 @@
 
+body {
+   font-family: "Hiragino Kaku Gothic Pro",sans-serif;
+}
 
 img {
 	width:100%;
@@ -19,6 +22,18 @@ input {
 	display:flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.description2 {
+	font-size:18px;
+	text-align: left;
+	font-weight: 800;
+	margin-left: 4.5em;
+}
+
+.description3 {
+	font-size: 18px; 
+	font-weight: 800;
 }
 
 .left {
@@ -45,9 +60,10 @@ input {
 .blue-circle {
 	background:#0C88CB;
 	border-radius:50%;
-	width:14px;
-	height:13px;
-	margin-top: 5px;
+	min-width:20px !important;
+	width:20px !important;
+	height: 20px !important;
+	margin-top: 6px;
 }
 
 .step {
@@ -66,6 +82,40 @@ input {
     margin-left: -10px;
 }
 
+.arrow-text {
+	text-align:center; 
+	font-size:32px;
+	font-weight: bold;
+	position: absolute;
+	width:100%;
+	top:40%;
+}
+
+.footer-pc {
+	display: block;
+}
+
+.blue-circle-gap {
+	margin-left: 5px;
+}
+
+.step-title {
+	font-size:18px;
+	font-weight: bold;
+	margin-left: 0.3em;
+}
+
+.footer-title {
+	font-size: 24px; 
+	padding: 1em 0;
+}
+
+.asnaro-search-input {
+	position: relative;
+	margin-left: -10px; 
+	margin-top: 2em;
+}
+
 @media (min-width:996px)
 {
 .mobile {
@@ -73,7 +123,7 @@ input {
 	}
 
 	.asanro {
-		padding-top:40px;
+		padding-top:100px;
 	}
 
 	.title {
@@ -166,7 +216,7 @@ input {
 	}
 
 	.gap-top {
-		margin-top: 40px;
+		margin-top: 100px;
 	}
 
 	.usageimg-gap {
@@ -267,7 +317,6 @@ input {
 		border:1px solid #2B68B3;
 		color:#2B68B3;
 		font-size:11px;
-		height: 20px;
 		margin-left:5px;
 	}
 
@@ -282,6 +331,52 @@ input {
 	.computer-gap {
 		margin-right: 10px;
 	}
+
+	.qrcode {
+		margin:13px 5em;
+		width:100px;
+	}
+
+	.footer-asnaro-text {
+		text-align:left;
+	}
+
+	.logo {
+		width:50px;
+		height:50px;
+		margin-right:5px;
+	}
+
+
+	.responsible-person {
+		font-size: 12px;
+		line-height: 15px;
+		margin-top: -4px;
+	}
+
+	.computer-text-gap {
+		margin-top:7px;
+	}
+
+	.footer-pc {
+		display: block;
+	}
+
+	.footer-mobile {
+		display: none;
+	}
+
+	body {
+		line-height: 32px !important;
+	}
+
+	.computerCalendar-gap {
+		margin-top: 10px;
+	}
+
+	.companyurl-text {
+		font-size: 30px;
+	}
 }
 
 @media (min-width:768px) and (max-width:995px)
@@ -291,7 +386,7 @@ input {
 	}
 
 	.asanro {
-		padding-top:40px;
+		padding-top:80px;
 	}
 
 	.title {
@@ -379,7 +474,7 @@ input {
 	}
 
 	.gap-top {
-		margin-top: 40px;
+		margin-top: 80px;
 	}
 
 	.usageimg-gap {
@@ -494,6 +589,52 @@ input {
 	.computer-gap {
 		margin-right: 10px;
 	}
+
+
+	.qrcode {
+		margin:13px 2em;
+		width:100px;
+	}
+
+	.footer-asnaro-text {
+		text-align:left;
+	}
+
+	.logo {
+		width:50px;
+		height:50px;
+		margin-right:5px;
+	}
+
+	.responsible-person {
+		font-size: 10px;
+		line-height: 13px !important;
+	}
+
+	.computer-text-gap {
+		margin-top:7px;
+	}
+
+	.footer-pc {
+		display: block;
+	}
+
+	.footer-mobile {
+		display: none;
+	}
+
+
+	body {
+		line-height: 30px !important;
+	}
+
+	.computerCalendar-gap {
+		margin-top: 10px;
+	}
+
+	.companyurl-text {
+		font-size: 30px;
+	}
 }
 
 @media (max-width:768px)
@@ -503,12 +644,12 @@ input {
 	}
 
 	.asanro {
-		padding:20px 0px;
+		padding-top:50px;
 	}
 
 	.title {
 		color:#2B68B3;
-		font-size:20px;
+		font-size:22px;
 		font-weight:bold;
 		text-align: center;
 	}
@@ -588,7 +729,7 @@ input {
 	}
 
 	.gap-top {
-		margin-top: 20px;
+		margin-top: 50px;
 	}
 
 	.usageimg-gap {
@@ -600,7 +741,7 @@ input {
 	}
 
 	.computer-range {
-		width:60%;
+		width:70%;
 		margin-bottom: 15px;
 		margin-left:auto;
 		margin-right:auto;
@@ -676,8 +817,8 @@ input {
 	.computer-comment {
 		position: absolute;
 	    left: -3%;
-	    top: -40%;
-	    width:70px;
+	    top: -25%;
+	    width:60px;
 	}
 
 	.line {
@@ -697,8 +838,7 @@ input {
 	}
 
 		.company-name {
-		font-size:25px;
-		margin-top: -7px;		
+		font-size:25px;	
 	}
 
 	.calendar-gap {
@@ -707,5 +847,58 @@ input {
 
 	.footer-center {
 		margin: auto;
+	}
+
+	.qrcode {
+		margin:13px;
+		width:100px;
+	}
+
+	.footer-asnaro-text {
+		text-align:left;
+	}
+
+	.logo {
+		width:50px;
+		height:50px;
+		margin-right:5px;
+	}
+
+	.computer-text-gap {
+		margin-top:10px;
+	}
+
+	.arrow-text {
+	    text-align: center;
+	    font-size: 22px;
+	    font-weight: bold;
+	    position: absolute;
+	    width: 100%;
+	    top: 20%;
+	}
+
+	.footer-pc {
+		display: none;
+	}
+
+	.footer-mobile {
+		display: block;
+	}
+
+	body {
+		line-height: 30px !important;
+	}
+
+	.responsible-person {
+		line-height: 23px;
+		margin-top: 5px;
+	}
+
+	.computerCalendar-gap {
+		margin-top: 30px;
+	}
+
+	.companyurl-text {
+		font-size: 24px;
 	}
 }
